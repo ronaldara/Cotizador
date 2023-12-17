@@ -248,7 +248,7 @@ function descargarPDF() {
             // Obtener la tabla por su ID
             var tabla = document.getElementById('resultado');
 
-            // Configuración para la generación del PDF
+            // ConfiguraciÃ³n para la generaciÃ³n del PDF
             var opciones = {
                 margin: 10,
                 filename: 'mi_Cotizacion.pdf',
@@ -305,7 +305,7 @@ autocompleteList.style.display='block';
 
 	function llenarInput(producto) {
 	 document.getElementById('Producto').value = producto;
-	  // Puedes agregar más acciones aquí si es necesario
+	  // Puedes agregar mÃ¡s acciones aquÃ­ si es necesario
 
 	}
 //function verificar{
@@ -353,7 +353,7 @@ const precioreal = document.getElementById('precioreal');
     // Obtener el precio del plan seleccionado del equipo
     const precioSeleccionado = equipoEncontrado[planSeleccionado];
 console.log(equipoEncontrado);
-    // Crear una opción en el select
+    // Crear una opciÃ³n en el select
    // const option = document.createElement('option');
     //option.value = precioSeleccionado;
     precio.value = `${precioSeleccionado}`;
@@ -361,10 +361,10 @@ console.log(equipoEncontrado);
      vigencia.value = `${equipoEncontrado.VIGENCIA}`;
  precioreal.value = equipoEncontrado["Precio de Contado"];
     
-    // Agregar la opción al select
+    // Agregar la opciÃ³n al select
   //  precio24MesesInput.add(option);
   } else {
-    // Si el equipo no se encuentra, puedes manejar esto según tus necesidades
+    // Si el equipo no se encuentra, puedes manejar esto segÃºn tus necesidades
     //const option = document.createElement('option');
     precio.value = 'Equipo no encontrado';
     //precio24MesesInput.add(option);
